@@ -5,20 +5,8 @@ services:
     build: .
     ports:
       - "3000:3000"
-    depends_on:
-      - db
     environment:
       - NODE_ENV=production
     volumes:
       - .:/app
     command: npm start
-
-  db:
-    image: mongo:latest
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo-data:/data/db
-
-volumes:
-  mongo-data:
