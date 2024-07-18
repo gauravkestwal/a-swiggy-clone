@@ -16,7 +16,7 @@ function Footer() {
                 <div>
                     <div className='d-flex align-items-center'><img width={'30px'} src={logo} alt="Logo" />
                     <h3 style={{color:"white"}} className='fw-bolder mt-1 ms-2'>Swiggy</h3></div>
-                    <p style={{color:"white"}}>© cyberdesk technology Pvt. Ltd dehradun uttrakhand dehradun aplana</p>
+                    <p style={{color:"white"}}>© cyberdesk technology Pvt. Ltd dehradun uttrakhand dehradun aplana kutubpur</p>
                 </div>
                 <div style={{color:"#9e9e9e"}}>
                     <h5 style={{color:"white"}}>Company</h5>
