@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: swiggy-app
-        image: cyberdesk07/zamato1:21
+        image: cyberdesk07/zamato1:22
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
