@@ -4,13 +4,16 @@ Jenkins :
 -> create a ec2 instance for Jenkins. ( large , with 30 gb)
 
 For install docker :
+
 sudo apt-get update
 sudo apt-get install docker.io -y
 sudo usermod -aG docker $USER  # Replace with your system's username, e.g., 'ubuntu'
 newgrp docker
 sudo chmod 777 /var/run/docker.sock
 
-For install Jenkins : 
+
+For install Jenkins :
+
 sudo apt update
 sudo apt install fontconfig openjdk-17-jre
 java -version
@@ -30,6 +33,7 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 
 For check Jenkins is running or not :
+
 systemctl status Jenkins
 
 open port 8080 in EC2. Copy public ip and paste in browser : 8080
